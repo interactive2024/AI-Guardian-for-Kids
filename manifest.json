@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "AI Guardian for Kids",
+  "version": "1.0",
+  "description": "A smart parental control tool that fosters communication between parents and children.",
+  "permissions": [
+    "webNavigation",
+    "tabs",
+    "identity",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
